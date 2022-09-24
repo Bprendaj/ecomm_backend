@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
       model:Product,
       attributes: ['id', 'produce_name', 'price']
     }
+  });
 });
 
 router.get('/:id', (req, res) => {
